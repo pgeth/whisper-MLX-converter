@@ -1,13 +1,13 @@
-`venv/bin/activate - venv`
-
-`deactivate — quit venv`
+Активация venv: `source venv/bin/activate`  
+Выход: `deactivate`
 
 📝 Использование:
-`   python run.py <путь_к_видео>`
+`   python run.py <путь_к_папке>`
 
-💡 Примеры:
+Скрипт находит в папке все аудио/видео (mp4, mov, mp3, m4a, wav и др.), транскрибирует по очереди и сохраняет текст в ту же папку как `имя_файла_transcript.txt`.
+
+💡 Пример:
 
 ```bash
-   python run.py video.mp4
-   python run.py /Users/name/Videos/lecture.mov
+   python run.py /Users/name/Videos/lectures
 ```
